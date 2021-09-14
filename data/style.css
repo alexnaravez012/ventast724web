@@ -187,8 +187,7 @@
 }
 
 .logo-size-sales {
-    height: 70px;
-    width: 200px;
+    width: 180px;
     cursor: pointer;
 }
 
@@ -247,8 +246,7 @@
 }
 
 .img-menu-vertical-size-sales {
-    height: 40px;
-    width: 45px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -406,7 +404,7 @@
     height: 28px;
     width: 160px;
     background-color: white;
-    color: #0554bb;
+    color: rgb(185, 33, 33);
     border-radius: 5px;
     font-size: 12px;
     cursor: pointer;
@@ -551,7 +549,7 @@
     border: 1px solid rgba(179, 179, 179, 0.781);
     height: 30px;
     background-color: white;
-    color: #0554bb;
+    color: rgb(185, 33, 33);
     border-radius: 5px;
     font-size: 11px;
     cursor: pointer;
@@ -583,7 +581,6 @@
 }
 
 .text-img-bag-navbar-sales {
-    color: #3a6193;
     left: 25px;
     top: -32px;
 }
@@ -733,7 +730,7 @@
 }
 
 .card-products-add-sales:hover {
-    border: 1.5px solid rgb(2, 173, 2);
+    border: 1.5px solid rgb(173, 135, 135);
 }
 
 .img-items-products-add-70-sales {
@@ -748,7 +745,7 @@
 
 .button-discount-card-sales {
     border-radius: 5px;
-    background-color: rgb(0, 0, 102);
+    background-color: black;
     color: white;
     width: 50px !important;
     height: 18px;
@@ -922,7 +919,7 @@
     padding-left: 40px;
     border-radius: 10px;
     background: #ffffff;
-    color: #0c0fc3;
+    color: rgb(185, 33, 33);
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -977,7 +974,7 @@
     font-size: 9px;
     border-radius: 10px;
     background: #ffffff;
-    color: #0c0fc3;
+    color: rgb(185, 33, 33);
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1038,7 +1035,7 @@
     cursor: pointer;
     height: 30px;
     width: 100px;
-    color: blue;
+    color: rgb(185, 33, 33);
     background-color: white;
     font-size: 12px;
 }
@@ -1076,9 +1073,27 @@
 }
 
 .button-items-menu-categories-sales:hover {
-    background-color: #B1FFA6;
+    background-color: #ebeceb;
 }
 
 .button-items-menu-categories-sales:focus {
     outline: 0;
+}
+
+.icon-menu-sales {
+    width: 20px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.color-red {
+    color: #ED2C27;
+}
+
+.color-red-3 {
+    color: rgb(185, 33, 33);
+}
+
+.color-red-two {
+    color: #9C2523;
 }
