@@ -72,7 +72,7 @@
                                     <div class="uk-modal-dialog most-selled-products-sales">
                                         <div class="uk-flex uk-flex-middle">
                                             <i class="fas fa-times uk-modal-close cursor-pointer"></i>
-                                            <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 padding-horizontal-30">top 20 productos más vendidos</h6>
+                                            <h6 class="uk-margin-remove color-red-3 uk-text-bold font-size-12 padding-horizontal-30">top 20 productos más vendidos</h6>
                                         </div>
                                         <div class="uk-flex uk-flex-center">
                                             <div style="margin-top: 15px; height: 310px;">
@@ -99,12 +99,12 @@
                         <ul class="uk-flex uk-flex-middle" style="margin: 0px !important; padding: 0px !important;" uk-switcher>
                             <div uk-toggle="target: #toggle-custom0; cls: border-bottom-sales">
                                 <button id="toggle-custom1" class="button-movements-cash-sales uk-flex uk-flex-middle">
-                                    <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12">Movimientos de caja</h6>
+                                    <h6 class="uk-margin-remove color-red-3 uk-text-bold font-size-12">Movimientos de caja</h6>
                                 </button>
                             </div>
                             <div uk-toggle="target: #toggle-custom1; cls: border-bottom-two-sales">
                                 <button id="toggle-custom0" class="button-close-cash-sales uk-flex uk-flex-middle">
-                                    <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12">Cierre de caja</h6>
+                                    <h6 class="uk-margin-remove color-red-3 uk-text-bold font-size-12">Cierre de caja</h6>
                                 </button>
                             </div>
                         </ul>
@@ -127,13 +127,13 @@
                                     <div class="hr-tab"></div>
                                 </div>
                                 <div class="uk-flex uk-flex-middle uk-flex-around padding-horizontal-20" style="margin-top: 10px;">
-                                    <button class="buttons-final-drop-movement-cash-sales">Volver</button>
-                                    <button class="buttons-final-drop-movement-cash-sales" uk-toggle="target: #modal-movements-cash">Ver otros movimientos</button>
+                                    <button class="buttons-final-drop-movement-cash-sales" style="color: black !important;">Volver</button>
+                                    <button class="buttons-final-drop-movement-cash-sales" style="color: black !important;" uk-toggle="target: #modal-movements-cash">Ver otros movimientos</button>
                                     <div id="modal-movements-cash" uk-modal>
                                         <div class="uk-modal-dialog modal-other-movements-sales">
                                             <div class="uk-flex uk-flex-middle">
                                                 <i class="fas fa-times uk-modal-close cursor-pointer"></i>
-                                                <h6 class="uk-margin-remove color-blue uk-text-bold font-size-12 padding-horizontal-30">Ver otros movimientos</h6>
+                                                <h6 class="uk-margin-remove color-red-3 uk-text-bold font-size-12 padding-horizontal-30">Ver otros movimientos</h6>
                                             </div>
                                             <div class="uk-flex uk-flex-center">
                                                 <div style="margin-top: 15px;">
@@ -153,7 +153,7 @@
                                                 </div>
                                             </div>
                                             <div class="hr-tab-list"></div>
-                                            <button class="uk-modal-close button-return-sales" type="button">Volver</button>
+                                            <button class="uk-modal-close button-return-sales" style="color: black !important;" type="button">Volver</button>
                                         </div>
                                     </div>
                                     <button class="buttons-final-drop-movement-cash-sales" style="color: rgb(155, 155, 155);">Añadir Movimiento</button>
@@ -286,7 +286,7 @@
         </div>
     </div>
     <!-- Busqueda por lista -->
-    <div style="display: inline;">
+    <div style="display: none;">
         <!-- Contenido  -->
         <div class="main-container-sales">
             <!-- Subnavbar de busqueda -->
@@ -381,7 +381,7 @@
                         <div>
                             <div class="uk-flex uk-flex-middle" style="margin-bottom: 5px;">
                                 <!-- Transacción manual agregar pago -->
-                                <button class="buttons-total-sales uk-text-bold" uk-toggle="target: #manual-billing-add-pay">Manual</button>
+                                <button class="buttons-total-sales uk-text-bold" uk-toggle="target: #manual-billing-add-pay" style="color: #34B38C !important;">Manual</button>
                                 <!-- Transacción manual add pago -->
                                 <div id="manual-billing-add-pay" uk-modal>
                                     <div class="uk-modal-dialog modal-manual-billing-sales">
@@ -410,7 +410,7 @@
                                                             <input class="inputs-manual-billing-sales" style="margin-left: 10px; margin-right: 10px;" type="text">
                                                         </div>
                                                         <div>
-                                                            <button class="buttons-close-cash-sales" style="font-size: 10px; height: 23px !important; width: 55px;">Buscar</button>
+                                                            <button class="buttons-close-cash-sales" style="font-size: 10px; height: 23px !important; width: 55px; color: rgb(7, 7, 126) !important;">Buscar</button>
                                                         </div>
                                                     </div>
                                                     <div class="uk-flex uk-flex-middle" style="margin-top: 25px;">
@@ -451,7 +451,7 @@
                                             </div>
                                         </div>
                                         <!-- pago en efectivo -->
-                                        <div style="display: inline;">
+                                        <div style="display: none;">
                                             <div style="margin-top: 20px;">
                                                 <div style="margin-left:30px ;">
                                                     <img class="image-bill-icons-sales" src="./data/money/anverso-1000.png" alt="">
@@ -489,11 +489,11 @@
                                             <div class="uk-position-bottom-right" style="margin-bottom: 20px;  margin-right: 30px;">
                                                 <button class="buttons-close-cash-sales uk-modal-close" type="button">Cancelar</button>
                                                 <!-- Boton Completar pago -->
-                                                <div style="display: inline;">
+                                                <div style="display: none;">
                                                     <button class="buttons-close-cash-sales" style="color: grey !important" type="button">Completar pago</button>
                                                 </div>
                                                 <!-- Boton agregar pago -->
-                                                <div style="display: none;">
+                                                <div style="display: inline;">
                                                     <button class="buttons-close-cash-sales" type="button" uk-toggle="target: #modal-example">Agregar pago</button>
                                                 </div>
                                                 <div id="modal-example" uk-modal>
@@ -554,7 +554,7 @@
                                             </div>
                                         </div>
                                         <!-- Mostrando los datos introducirdos y los botones de pago parcial y pago completo. -->
-                                        <div style="display: none;">
+                                        <div style="display: inline;">
                                             <div style="padding-left: 30px; padding-top: 20px; padding-right: 30px;">
                                                 <div>
                                                     <h6 class="uk-margin-remove uk-text-bold">Tarjea de débito/crédito</h6>
@@ -572,18 +572,18 @@
                                                         <button class="buttons-options-payments-sales uk-modal-close">Cancelar</button>
                                                     </div>
                                                     <div class="uk-flex uk-flex-column">
-                                                        <button class="buttons-options-payments-sales" style="margin-bottom: 10px;">Pago parcial</button>
-                                                        <button class="buttons-options-payments-sales">Pago completo</button>
+                                                        <button class="buttons-options-payments-sales" style="margin-bottom: 10px; color: #34B38C !important;">Pago parcial</button>
+                                                        <button class="buttons-options-payments-sales" style="color: #69B334 !important;">Pago completo</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <button class="buttons-total-sales uk-text-bold" style="margin-left: 5px;">Rápida con factura</button>
+                                <button class="buttons-total-sales uk-text-bold" style="margin-left: 5px; color: #34B351 !important;">Rápida con factura</button>
                             </div>
                             <div class="uk-flex uk-flex-center">
-                                <button class="buttons-total-sales" style="color: rgb(4, 179, 4) !important; font-weight: 800;">Rápida</button>
+                                <button class="buttons-total-sales" style="color: #69B334 !important; font-weight: 800;">Rápida</button>
                             </div>
                         </div>
                     </div>
@@ -670,7 +670,7 @@
         </div>
     </div>
     <!-- Busqueda por categorías -->
-    <div style="display: none;">
+    <div style="display: inline;">
         <div class="main-container-sales">
             <!-- Subnavbar de busqueda -->
             <div class="uk-flex uk-flex-middle uk-flex-between subnavbar-search-products-sales">
@@ -694,7 +694,7 @@
                 </div>
                 <div>
                     <a class="padding-horizontal-10 " style="position: relative; margin-right: 15px; " href=" ">
-                        <img class="img-size-bag-sales " src="./data/Bolsa-de-compras.png " alt=" " uk-img>
+                        <img class="img-size-bag-sales " src="./data/Canasta-inactivo.png " alt=" " style="width: 50px;" uk-img>
                         <h6 class="text-img-bag-navbar-sales uk-text-bold font-size-12 " style="position: absolute; ">0</h6>
                     </a>
                 </div>
@@ -1274,9 +1274,9 @@
                         </div>
                         <div style="margin-top: 15px; margin-left: 25px;">
                             <div class="uk-flex uk-flex-middle" style="margin-bottom: 5px;">
-                                <button class="buttons-total-sales uk-text-bold" style="font-size: 10px !important; width: 80px !important; margin-right: 5px;">Manual</button>
-                                <button class="buttons-total-sales uk-text-bold" style="font-size: 10px !important; width: 120px !important; margin-right: 5px;">Rápida con factura</button>
-                                <button class="buttons-total-sales" style="font-size: 10px !important; width: 80px !important;color: rgb(4, 179, 4) !important; font-weight: 800;">Rápida</button>
+                                <button class="buttons-total-sales uk-text-bold" style="font-size: 10px !important; width: 80px !important; margin-right: 5px; color: #34B38C !important;">Manual</button>
+                                <button class="buttons-total-sales uk-text-bold" style="font-size: 10px !important; width: 120px !important; margin-right: 5px; color: #34B351 !important;">Rápida con factura</button>
+                                <button class="buttons-total-sales" style="font-size: 10px !important; width: 80px !important; color: #69B334 !important; font-weight: 800;">Rápida</button>
                             </div>
                         </div>
                     </div>

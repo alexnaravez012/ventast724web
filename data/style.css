@@ -549,7 +549,7 @@
     border: 1px solid rgba(179, 179, 179, 0.781);
     height: 30px;
     background-color: white;
-    color: rgb(185, 33, 33);
+    color: black;
     border-radius: 5px;
     font-size: 11px;
     cursor: pointer;
@@ -919,7 +919,7 @@
     padding-left: 40px;
     border-radius: 10px;
     background: #ffffff;
-    color: rgb(185, 33, 33);
+    color: black;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -974,7 +974,7 @@
     font-size: 9px;
     border-radius: 10px;
     background: #ffffff;
-    color: rgb(185, 33, 33);
+    color: black;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
